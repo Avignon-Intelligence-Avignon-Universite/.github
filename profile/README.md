@@ -41,4 +41,5 @@ Python (FastAPI, Flask), TypeScript (Express, React), SQLite, MySQL, PostgreSQL 
 Ces outils répondent à des besoins que beaucoup d'établissements partagent. Si l'un d'eux vous intéresse, ou si vous souhaitez échanger sur la démarche, contactez-moi : je peux vous présenter les outils, discuter de leur adaptation à votre contexte et vous tenir informé de leur publication en open source.
 
 **Pierre Aumont**, coordination opérationnelle du programme · DARI, Avignon Université
+
 [pierre.aumont@univ-avignon.fr](mailto:pierre.aumont@univ-avignon.fr) · [LinkedIn](https://www.linkedin.com/in/pierre-aumont-avignon)
