@@ -2,21 +2,27 @@
 
 Avignon Intelligence est le programme de déploiement de l'intelligence artificielle à Avignon Université : formation des personnels, prototypage d'outils et veille. Il est porté par la Direction d'appui à la recherche et à l'innovation (DARI), auprès du vice-président au numérique.
 
-Les dépôts de cette organisation sont privés pour le moment, car ils contiennent des données et des configurations internes à l'université. Cette page présente les outils et la démarche du programme.
+## Des dépôts privés, pour l'instant
 
-## Les outils
+Les quelque quarante dépôts de cette organisation sont privés, car ils contiennent encore des données et des configurations propres à l'université. Leur publication en open source est prévue dans le courant de l'année 2027. En attendant, voici les grandes familles d'outils développés.
 
-### Cartographie des compétences des laboratoires
-Un moteur de recherche oriente une entreprise vers les laboratoires de l'université à partir d'un besoin exprimé en langage naturel. Il s'appuie sur les publications des chercheurs dans des sources ouvertes (HAL, OpenAlex, ORCID, IdRef). Chaque chercheur est identifié par ses identifiants pérennes, et les profils sont validés par les chercheurs eux-mêmes. Une déclinaison couvre les unités INRAE du PUI Provence.
+### Recherche, partenariats et valorisation
+Cartographie des compétences des laboratoires, construite à partir des publications en sources ouvertes (HAL, OpenAlex, ORCID, IdRef) et validée par les chercheurs. Moteur de recherche qui oriente une entreprise vers les laboratoires à partir d'un besoin exprimé en langage naturel, aide à la mise en relation, référentiel des partenaires et de leurs contrats enrichi de données publiques (SIRENE), observatoire de l'usage des outils. Une déclinaison couvre les unités INRAE du PUI Provence.
 
-### Observatoire de la valorisation
-Un tableau de bord suit l'usage, anonymisé, des outils publics : indicateurs, évolution dans le temps, parcours des utilisateurs.
+### Traduction de documents et de contenus
+Traduction de fichiers Word, PowerPoint et PDF en conservant leur mise en page, traduction de conférences et de cours.
 
-### Référentiel des partenaires
-Une base des partenaires de l'université est enrichie de données publiques (SIRENE, API Recherche d'entreprises). Ces données externes restent toujours distinguées des données internes.
+### Transcription et comptes rendus
+Transcription audio avec relecture humaine, studio de transcription, génération de comptes rendus de réunions.
 
-### Outils internes
-Le programme développe aussi des assistants qui répondent à partir des pages officielles de l'université, un outil de traduction de documents qui conserve leur mise en page, et des outils de transcription et de compte rendu de réunions.
+### Assistants pour les usagers
+Assistants qui répondent à partir des pages officielles de l'université, par exemple pour l'inscription en thèse, et outils de l'expérimentation Mistral ESR.
+
+### Pédagogie et lecture
+Génération de QCM à partir de supports de cours, questions anonymes du public en cours ou en conférence avec modération et synthèse par l'IA, lecteur de PDF avec résumés et questions au document.
+
+### Outils du quotidien
+Compression de fichiers PDF et PowerPoint, correction de présentations pour OnlyOffice, prise de rendez-vous, archivage partagé, gestion d'événements comme la Fête de la science, et le portail qui rassemble ces outils.
 
 ## La démarche
 
@@ -30,6 +36,9 @@ Le programme développe aussi des assistants qui répondent à partir des pages 
 
 Python (FastAPI, Flask), TypeScript (Express, React), SQLite, MySQL, PostgreSQL avec pgvector, ChromaDB, Docker. Les outils sont déployés sur l'infrastructure de l'université, en lien avec la direction du numérique.
 
-## Contact
+## Vous êtes un établissement de l'enseignement supérieur ou de la recherche ?
 
-Pierre Aumont, coordination opérationnelle du programme et administration de cette organisation · DARI, Avignon Université
+Ces outils répondent à des besoins que beaucoup d'établissements partagent. Si l'un d'eux vous intéresse, ou si vous souhaitez échanger sur la démarche, contactez-moi : je peux vous présenter les outils, discuter de leur adaptation à votre contexte et vous tenir informé de leur publication en open source.
+
+**Pierre Aumont**, coordination opérationnelle du programme · DARI, Avignon Université
+[pierre.aumont@univ-avignon.fr](mailto:pierre.aumont@univ-avignon.fr) · [LinkedIn](https://www.linkedin.com/in/pierre-aumont-avignon)
