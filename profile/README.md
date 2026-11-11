@@ -1,6 +1,8 @@
 # Avignon Intelligence · Avignon Université
 
 Avignon Intelligence est le programme de déploiement de l'intelligence artificielle à Avignon Université : formation des personnels, prototypage d'outils et veille. Il est porté par la Direction d'Appui à la Recherche et à l'Innovation (DARI), auprès du vice-président au numérique.
+
+# Des prototypes sur IA souveraine ou interne
 **Tous les prototypes développés utilisent exclusivement des modèles d'IA autohébergés par notre Université ou par ILaaS (fédération française qui mutualise des infrastructures de calcul pour offrir des services d’inférence IA souverains, fiables, sobres et conformes au RGPD, principalement pour l’Enseignement Supérieur et la Recherche.**
 
 ## Des dépôts privés, pour l'instant
